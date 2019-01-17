@@ -1,0 +1,20 @@
+{
+  "name": "ws-nodejs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "This is nodejs tutorials.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "fun",
+    "ninja"
+  ],
+  "author": "Guru99. <guru99@gmail.com> (http://Guru99.com)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
