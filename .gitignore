@@ -6,3 +6,25 @@ Cache/
 GPUCache/
 User/
 Local_Storage/
+CachedExtensions/builtin
+CachedExtensions/user
+Local Storage/file__0.localstorage
+Local Storage/file__0.localstorage-journal
+node_modules/vary/LICENSE
+node_modules/type-is/LICENSE
+node_modules/type-is/README.md
+node_modules/type-is/index.js
+node_modules/type-is/package.json
+node_modules/unpipe/HISTORY.md
+node_modules/unpipe/LICENSE
+node_modules/unpipe/index.js
+node_modules/unpipe/package.json
+node_modules/utils-merge/.npmignore
+node_modules/utils-merge/LICENSE
+node_modules/utils-merge/README.md
+node_modules/utils-merge/index.js
+node_modules/utils-merge/package.json
+node_modules/vary/HISTORY.md
+node_modules/vary/README.md
+node_modules/vary/index.js
+node_modules/vary/package.json

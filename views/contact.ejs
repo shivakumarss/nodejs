@@ -3,10 +3,23 @@
           <style>
               body {background-color:cadetblue; font-family: 'Courier New', Courier, monospace ; padding: 30px}
           </style>
+      </head>  
             <body>
                 <p>Welcome to contact page</p>
-                <p><%=  qs.language %> </p>
-                <p><%=  qs.name %> </p>
+                
+
+            
+                <form id="conact-form" method="POST" action="/contact">
+                    <label for="who">who do you want to contact ? </label>
+                    <input type="text" name="who" value="<%= qs.who %>">
+                    <label for="department">which department ? </label>
+                    <input type="text" name="dept" value="<%= qs.dept %>">
+                    <label for="email">email </label>
+                    <input type="text" name="email">
+                    <input type="submit" name="submit">
+
+                </form>
+
             </body>
-      </head>  
+     
 </html>
