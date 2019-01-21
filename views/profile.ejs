@@ -1,0 +1,20 @@
+<html>
+      <head>
+            <link  rel="stylesheet"  href="/assets/css/styles.css">
+                    
+        </head>  
+            <body>
+                   
+                <h1>Welcome to the profile page of <%= Person %>.</h1>
+                <p>Profile age is <%= data.age %></p>
+                <p>Profile role is <%= data.job %></p>
+                <p>Profile hobbies are  </p>
+                       <% data.hobbies.forEach(function(itm){ %>
+                        <p><%= itm %></p>
+
+                       <% }) %>
+                   
+
+            </body>
+      
+</html>
