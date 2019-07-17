@@ -7,7 +7,7 @@ app.listen(8080,'127.0.0.1',function(){
 
 });
 
-app.set('view engine','ejs')
+app.set('view... engine','ejs')
 
 app.use('/assets', express.static('assets'));
 
