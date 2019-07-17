@@ -20,7 +20,7 @@ var time = 0;
 
 function sayHi(){
  
-    console.log("Hi ")
+    console.log("Hi Again ")
 }
 
 var sayBye = function() {
